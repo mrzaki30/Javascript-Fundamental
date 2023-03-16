@@ -53,30 +53,26 @@
                     <input type="text" class="form-control" id="filter-input" aria-label="Task Filter"
                         aria-describedby="task-filter" />
                 </div>
-
                 <ul class="list-group" id="todo-list">
-                    <!-- <li
-                class="list-group-item d-flex justify-content-between align-items-center mb-1"
-              >
-                Value dari task input
-                <a href="#" class="badge badge-danger">Delete</a>
-              </li> -->
+                    <li class="todo-item list-group-item d-flex justify-content-between align-items-center mb-1 ">
+                        value isi dari
+                        <button class="btn btn-sm btn-danger delete-todo">delete</button>
+                    </li>
                 </ul>
             </div>
 
             <div class="card-body mb-3">
-                <button class="btn btn-outline-warning btn-block" type="button" data-toggle="collapse"
-                    data-target="#collapseClearButton" aria-expanded="false" aria-controls="collapseClearButton">
+                <button class="btn btn-outline-warning btn-block" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseClearButton" aria-expanded="false" aria-controls="collapseClearButton">
                     Clear Todo List
                 </button>
 
                 <div class="collapse" id="collapseClearButton">
-                    <button class="btn btn-danger btn-lg btn-block clear-todos mt-3" id="clear-todos">
+                    <button class="btn btn-danger btn-lg btn-block clear-todos mt-3" type="submit" id="clear-todos">
                         Clear Todo List for Real
                     </button>
                 </div>
             </div>
-
             <div class="card-footer text-white">Wegodev Indonesia</div>
         </div>
     </div>
@@ -87,6 +83,7 @@
         integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="app.js"></script>
+    <!-- <script src="app2.js"></script> -->
 </body>
 
 </html>

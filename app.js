@@ -15,7 +15,8 @@ function addTodo(e) {
     // create element li
     const li = document.createElement("li");
     // create class li
-    li.className = "todo-item list-group-item d-flex justify-content-between align-items-center mb-1 "
+    li.className = "todo-item list-group-item d-flex justify-content-between align-items-center"
+    li.setAttribute("style", "background-color: #423a6f;color:#F8F9FA;")
     //create isi dari li
     li.appendChild(document.createTextNode(todoInput.value))
     //create element a
